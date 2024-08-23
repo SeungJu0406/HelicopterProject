@@ -2,17 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class DeleteMissile : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    [SerializeField] float time;
+    [HideInInspector] float curTime;
     void Update()
     {
-        
+        CheckTime();
+    }
+    void CheckTime()
+    {
+        curTime += 1 * Time.deltaTime;
+        if (curTime >= time) 
+        {
+            Delete();
+        }
+    }
+    void Delete()
+    {
+        Destroy(gameObject);
     }
 }

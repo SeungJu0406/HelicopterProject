@@ -207,6 +207,7 @@ GameObject:
   - component: {fileID: 8344141608879993838}
   - component: {fileID: 8344141608879993839}
   - component: {fileID: 8344141608879993836}
+  - component: {fileID: 5747112746365046456}
   m_Layer: 0
   m_Name: Doraemong
   m_TagString: Player
@@ -280,6 +281,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &5747112746365046456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8344141608879993824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1d6c3f7a83701b498304a3909851824, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 9218878640120657223, guid: a2194be5b75f3fd43991e9f37b07ee37, type: 3}
+  maxMissile: 5
+  firePerSecond: 1
 --- !u!1 &8344141608962013820
 GameObject:
   m_ObjectHideFlags: 0
