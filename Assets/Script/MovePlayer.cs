@@ -8,7 +8,7 @@ public class MovePlayer : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] float rate;
 
-    [SerializeField] float rotateSpeed;
+    [SerializeField] public float rotateSpeed;
     private Vector3 angle = new Vector3();
 
     void Update()

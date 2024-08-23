@@ -25,7 +25,6 @@ public class RotateWings : MonoBehaviour
             if (curRotateSpeed > maxRotateSpeed)
             {
                 curRotateSpeed = maxRotateSpeed;
-                Debug.Log("∫Ò«‡");
             }
         }
         else
