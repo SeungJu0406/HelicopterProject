@@ -1,12 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class RotateWings : MonoBehaviour
 {
-    float curRotateSpeed;
-    [SerializeField] float maxRotateSpeed;
+    [HideInInspector] public float curRotateSpeed;
+    [SerializeField] public float maxRotateSpeed;
     [SerializeField] float timeToMax;
+
+    [HideInInspector] public Action OnRotateMax;
 
     private void Awake()
     {
@@ -22,7 +25,10 @@ public class RotateWings : MonoBehaviour
         {
             curRotateSpeed += maxRotateSpeed / timeToMax * Time.deltaTime;
             if (curRotateSpeed > maxRotateSpeed)
+            {
                 curRotateSpeed = maxRotateSpeed;
+                OnRotateMax?.Invoke();
+            }
         }
         else
         {

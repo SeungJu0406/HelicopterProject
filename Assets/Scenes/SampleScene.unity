@@ -1031,6 +1031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1420208759}
   - component: {fileID: 1420208760}
+  - component: {fileID: 1420208761}
   m_Layer: 0
   m_Name: Doraemong
   m_TagString: Player
@@ -1070,7 +1071,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rate: 10
-  rotateSpeed: 100
+  rotateSpeed: 200
+--- !u!114 &1420208761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420208758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2e4c9ad343bfdf4bb50ca2271d68f61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1503546421
 GameObject:
   m_ObjectHideFlags: 0
@@ -1664,6 +1677,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2031917065}
+  - component: {fileID: 2031917066}
   m_Layer: 0
   m_Name: Helicopter
   m_TagString: Untagged
@@ -1688,6 +1702,20 @@ Transform:
   m_Father: {fileID: 1420208759}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -87.148, z: 0}
+--- !u!114 &2031917066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031917064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aab0aa134611794b8b2beb3ea3298ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxRotateSpeed: 5000
+  timeToMax: 4
 --- !u!1 &2089502629
 GameObject:
   m_ObjectHideFlags: 0
