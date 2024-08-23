@@ -26,6 +26,10 @@ public class MovePlayer : MonoBehaviour
         transform.Translate(moveDir * moveSpeed * Time.deltaTime, Space.Self);
 
         //회전
+        if(z != 0) //이동중 회전 불가
+        {
+            return;
+        }
         transform.Rotate(Vector3.up, x * rotateSpeed * Time.deltaTime);
     }
 }
