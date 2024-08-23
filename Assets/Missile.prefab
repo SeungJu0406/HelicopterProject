@@ -550,3 +550,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 3
+  player: {fileID: 8344141608879993824, guid: 9369405f440bc6a4aa84d7ab487251d4, type: 3}
+  fireMissile: {fileID: 5747112746365046456, guid: 9369405f440bc6a4aa84d7ab487251d4, type: 3}

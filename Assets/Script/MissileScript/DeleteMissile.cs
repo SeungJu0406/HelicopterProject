@@ -6,9 +6,22 @@ public class DeleteMissile : MonoBehaviour
 {
     [SerializeField] float time;
     [HideInInspector] float curTime;
+
+    [SerializeField] GameObject player;
+
+    [SerializeField] FireMissile fireMissile;
+    private void Awake()
+    {
+        Init();
+    }
     void Update()
     {
         CheckTime();
+    }
+    
+    void Init()
+    {
+        fireMissile = player.GetComponent<FireMissile>();
     }
     void CheckTime()
     {
@@ -18,7 +31,7 @@ public class DeleteMissile : MonoBehaviour
             Delete();
         }
     }
-    void Delete()
+    public void Delete()
     {
         Destroy(gameObject);
     }
