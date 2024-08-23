@@ -9,8 +9,6 @@ public class RotateWings : MonoBehaviour
     [SerializeField] public float maxRotateSpeed;
     [SerializeField] float timeToMax;
 
-    [HideInInspector] public Action OnRotateMax;
-
     private void Awake()
     {
         curRotateSpeed = 0;
@@ -27,7 +25,7 @@ public class RotateWings : MonoBehaviour
             if (curRotateSpeed > maxRotateSpeed)
             {
                 curRotateSpeed = maxRotateSpeed;
-                OnRotateMax?.Invoke();
+                Debug.Log("∫Ò«‡");
             }
         }
         else

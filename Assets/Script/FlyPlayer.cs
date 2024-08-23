@@ -5,14 +5,22 @@ using UnityEngine;
 public class FlyPlayer : MonoBehaviour
 {
     [SerializeField] float flySpeed;
-
-    [SerializeField] RotateWings RotateWings;
-    private void Start()
+    [SerializeField] RotateWings rotateWings;
+    [SerializeField] Rigidbody rigidbody;
+    private void Update()
     {
-        RotateWings.OnRotateMax += Fly;
+        Fly(rotateWings);
     }
-    void Fly()
+    void Fly(RotateWings rotateWings)
     {
-        transform.Translate(Vector3.up * flySpeed * Time.deltaTime);
+        if (rotateWings.curRotateSpeed == rotateWings.maxRotateSpeed) 
+        {
+            transform.Translate(Vector3.up * flySpeed * Time.deltaTime);
+            rigidbody.drag = 100;
+        }
+        else
+        {
+            rigidbody.drag = 0;
+        }
     }
 }
