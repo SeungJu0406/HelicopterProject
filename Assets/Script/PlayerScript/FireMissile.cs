@@ -5,12 +5,11 @@ using UnityEngine;
 public class FireMissile : MonoBehaviour
 {
     [SerializeField] GameObject missile;
-    [SerializeField] Queue<GameObject> missiles;
+    [SerializeField] Queue<GameObject> missiles = new Queue<GameObject>();
     [SerializeField] float firePerSecond;
+    [SerializeField] int maxMissile;
     float curTime;
     float fireTime;
-
-    [SerializeField] DeleteMissile deleteMissile;
 
     private void Awake()
     {
@@ -18,13 +17,13 @@ public class FireMissile : MonoBehaviour
     }
     void Update()
     {
+       
         CheckTime();
         InputKey();
     }
+
     void Init()
     {
-        deleteMissile = missile.GetComponent<DeleteMissile>();
-        missiles = new Queue<GameObject>();
         fireTime = 1.0f / firePerSecond;
         curTime = fireTime;
     }
@@ -41,7 +40,7 @@ public class FireMissile : MonoBehaviour
         if (missiles.Count > 0)
         {
             GameObject m = missiles.Dequeue();
-            Instantiate(m);
+            Instantiate(m,transform.position,transform.rotation);           
         }
     }
     void CheckTime()
@@ -52,7 +51,7 @@ public class FireMissile : MonoBehaviour
         if(curTime>= fireTime)
         {
             missiles.Enqueue(missile);
-            curTime = 0;
+            curTime = 0;           
         }
     }
 

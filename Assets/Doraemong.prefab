@@ -294,8 +294,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   missile: {fileID: 9218878640120657223, guid: a2194be5b75f3fd43991e9f37b07ee37, type: 3}
-  maxMissile: 5
-  firePerSecond: 1
+  firePerSecond: 3
+  maxMissile: 3
   deleteMissile: {fileID: 3431956049458608210, guid: a2194be5b75f3fd43991e9f37b07ee37, type: 3}
 --- !u!1 &8344141608962013820
 GameObject:
