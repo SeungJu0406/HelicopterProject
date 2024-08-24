@@ -5,7 +5,7 @@ public class RotateWings : MonoBehaviour
     [HideInInspector] public float curRotateSpeed;
     [SerializeField] public float maxRotateSpeed;
     [SerializeField] float timeToMax;
-    [SerializeField] float fuel;
+    [SerializeField] public float fuel;
 
     bool canFlying;
 
