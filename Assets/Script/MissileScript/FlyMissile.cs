@@ -5,11 +5,10 @@ using UnityEngine;
 public class FlyMissile : MonoBehaviour
 {
     [SerializeField] float speed;
-    [SerializeField] Transform playerPos;
 
     private void Start()
     {
-        Rotate();
+        Rotate();       
     }
     private void Update()
     {
@@ -17,12 +16,16 @@ public class FlyMissile : MonoBehaviour
     }
     void Fly()
     {
-        
         transform.Translate(Vector3.up * speed * Time.deltaTime, Space.Self);
     }
     void Rotate()
-    {
-        transform.rotation = Quaternion.Euler(transform.rotation.x + 90, transform.rotation.y, transform.rotation.z);
+    {        
+        transform.rotation = Quaternion.Euler(
+            transform.rotation.eulerAngles.x + 90, 
+            transform.rotation.eulerAngles.y, 
+            transform.rotation.eulerAngles.z);
+        transform.position += transform.up * 1;
+        transform.position -= transform.forward * 1;
     }
     
 }

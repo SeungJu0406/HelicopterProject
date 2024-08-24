@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,7 +16,6 @@ public class FireMissile : MonoBehaviour
     }
     void Update()
     {
-       
         CheckTime();
         InputKey();
     }
@@ -40,18 +38,18 @@ public class FireMissile : MonoBehaviour
         if (missiles.Count > 0)
         {
             GameObject m = missiles.Dequeue();
-            Instantiate(m,transform.position,transform.rotation);           
+            Instantiate(m, transform.position, transform.rotation);
         }
     }
     void CheckTime()
     {
         if (missiles.Count == 1)
             return;
-        curTime += 1 * Time.deltaTime;        
-        if(curTime>= fireTime)
+        curTime += 1 * Time.deltaTime;
+        if (curTime >= fireTime)
         {
             missiles.Enqueue(missile);
-            curTime = 0;           
+            curTime = 0;
         }
     }
 

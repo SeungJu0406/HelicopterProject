@@ -537,7 +537,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  playerPos: {fileID: 0}
 --- !u!114 &3431956049458608210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -551,4 +550,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 3
-  player: {fileID: 8344141608879993824, guid: 9369405f440bc6a4aa84d7ab487251d4, type: 3}
