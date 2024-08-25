@@ -6,10 +6,13 @@ public class DeleteMissile : MonoBehaviour
 {
     [SerializeField] float time;
     [HideInInspector] float curTime;
+    GameObject player;
+    FireMissile fireMissile;
 
-    private void Awake()
+    private void Start()
     {
-        Init();
+        this.player = GameObject.Find("Doraemong");
+        fireMissile = player.GetComponent<FireMissile>();
     }
     void Update()
     {
@@ -29,7 +32,7 @@ public class DeleteMissile : MonoBehaviour
         curTime += 1 * Time.deltaTime;
         if (curTime >= time) 
         {
-            Delete();
+            fireMissile.DeleteMissile(gameObject);
         }
     }
     public void Delete()
