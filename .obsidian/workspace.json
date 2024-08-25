@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "58ad206341d92a57",
+    "type": "split",
+    "children": [
+      {
+        "id": "703834f03ff43862",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb4af3e3717b2dd1",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "README_Image/이동.gif"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7efe55dcdbd09016",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d6e6ce571b4e4e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e812eaf8667cf05",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "61f722d210b45848",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "599b7f611bc07b2d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ef2fede2eca10e99",
+    "type": "split",
+    "children": [
+      {
+        "id": "a82023c6aafc46ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be0a8d2643f8399e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README_Image/이동.gif",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "edae8339be34eee7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README_Image/이동.gif",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ba8b5076eeea6f73",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "180f56a567f478dc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README_Image/이동.gif"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "fb4af3e3717b2dd1",
+  "lastOpenFiles": [
+    "README_Image/미사일 발사.gif",
+    "README_Image/연료부족으로 인한 추락.gif",
+    "README_Image/비행.gif",
+    "Temp/UnityTempFile-4b47e6b2168bcd84fa3779f57afde6c5",
+    "Temp/UnityTempFile-2a66d2691b2be5b4890ca163a65bfa57",
+    "Temp/UnityTempFile-a43175a6e851c6243a3785e180079f5a",
+    "Temp/UnityTempFile-f4ca8a4a62fd4b2468c88118646e106c",
+    "Temp/UnityTempFile-e8653f0b3b4c64d43b5a711d819afb66",
+    "README_Image/도라에몽.png",
+    "README_Image/이동.gif",
+    "Temp/__Backupscenes/0.backup",
+    "Temp/UnityTempFile-aad13a22f4fb5f649bb51dacfce09cdf",
+    "Temp/__Backupscenes",
+    "README.md",
+    "README_Image",
+    "무제 파일 1.canvas",
+    "무제 파일.canvas"
+  ]
+}
