@@ -110,7 +110,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26148962135fb04448a9d9730169686b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
+  rotateSpeed: 100
+  rotateDir: 0
+  orbSpeed: 100
+  orbDir: 0
   target: {fileID: 1635987972066691357}
 --- !u!1 &1635987972066691356
 GameObject:
@@ -223,7 +226,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26148962135fb04448a9d9730169686b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 13
+  rotateSpeed: 50
+  rotateDir: 0
+  orbSpeed: 10
+  orbDir: 1
   target: {fileID: 1635987973434451443}
 --- !u!1 &1635987972113987264
 GameObject:
@@ -472,7 +478,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26148962135fb04448a9d9730169686b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 12
+  rotateSpeed: 50
+  rotateDir: 0
+  orbSpeed: 8
+  orbDir: 1
   target: {fileID: 1635987973434451443}
 --- !u!1 &1635987973049377617
 GameObject:
@@ -584,7 +593,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26148962135fb04448a9d9730169686b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  rotateSpeed: 50
+  rotateDir: 0
+  orbSpeed: 13
+  orbDir: 1
   target: {fileID: 1635987973434451443}
 --- !u!1 &1635987973202333319
 GameObject:
@@ -696,7 +708,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26148962135fb04448a9d9730169686b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  rotateSpeed: 50
+  rotateDir: 0
+  orbSpeed: 8
+  orbDir: 0
   target: {fileID: 1635987973434451443}
 --- !u!1 &1635987973285842965
 GameObject:
@@ -809,7 +824,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26148962135fb04448a9d9730169686b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  rotateSpeed: 50
+  rotateDir: 0
+  orbSpeed: 12
+  orbDir: 1
   target: {fileID: 1635987973434451443}
 --- !u!1 &1635987973408448564
 GameObject:
@@ -921,7 +939,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26148962135fb04448a9d9730169686b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  rotateSpeed: 50
+  rotateDir: 0
+  orbSpeed: 14
+  orbDir: 0
   target: {fileID: 1635987973434451443}
 --- !u!1 &1635987973416378597
 GameObject:
@@ -1033,7 +1054,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26148962135fb04448a9d9730169686b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 13
+  rotateSpeed: 50
+  rotateDir: 0
+  orbSpeed: 11
+  orbDir: 1
   target: {fileID: 1635987973434451443}
 --- !u!1 &1635987973434451442
 GameObject:
@@ -1242,5 +1266,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26148962135fb04448a9d9730169686b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  rotateSpeed: 50
+  rotateDir: 0
+  orbSpeed: 10
+  orbDir: 0
   target: {fileID: 1635987973434451443}
