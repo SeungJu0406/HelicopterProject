@@ -11,9 +11,11 @@
             "id": "fb4af3e3717b2dd1",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "README_Image/이동.gif"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README_Image/이동.gif",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README_Image/이동.gif",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README_Image/이동.gif"
+                "file": "README.md"
               }
             }
           }
@@ -146,21 +148,23 @@
   },
   "active": "fb4af3e3717b2dd1",
   "lastOpenFiles": [
+    "Temp/__Backupscenes/0.backup",
+    "Temp/UnityTempFile-5820b4433bbdf4c449a44490faa9705a",
+    "Temp/__Backupscenes",
+    "Temp/ProcessJobs",
+    "Library/EditorInstance.json",
+    "Logs/shadercompiler-UnityShaderCompiler.exe0.log",
+    "Temp/ADB-Refresh7ef5c43d5d2b9434c9f4b2f61204b9ba",
+    "Temp/ADB-Refresha8a51c2761ae09646a08defd611c2b16",
+    "Temp/ADB-Refresh6b024f8c1976d8e49b4fedcc98819900",
+    "Temp/workerlic",
+    "Temp/FSTimeGet-053e9a295d9439045b8f03a63f562499",
+    "README_Image/이동.gif",
     "README_Image/미사일 발사.gif",
     "README_Image/연료부족으로 인한 추락.gif",
     "README_Image/비행.gif",
-    "Temp/UnityTempFile-4b47e6b2168bcd84fa3779f57afde6c5",
-    "Temp/UnityTempFile-2a66d2691b2be5b4890ca163a65bfa57",
-    "Temp/UnityTempFile-a43175a6e851c6243a3785e180079f5a",
-    "Temp/UnityTempFile-f4ca8a4a62fd4b2468c88118646e106c",
-    "Temp/UnityTempFile-e8653f0b3b4c64d43b5a711d819afb66",
     "README_Image/도라에몽.png",
-    "README_Image/이동.gif",
-    "Temp/__Backupscenes/0.backup",
-    "Temp/UnityTempFile-aad13a22f4fb5f649bb51dacfce09cdf",
-    "Temp/__Backupscenes",
     "README.md",
-    "README_Image",
     "무제 파일 1.canvas",
     "무제 파일.canvas"
   ]
