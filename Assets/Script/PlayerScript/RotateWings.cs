@@ -4,14 +4,13 @@ public class RotateWings : MonoBehaviour
 {
     [HideInInspector] public float curRotateSpeed;
     [SerializeField] public float maxRotateSpeed;
-    [SerializeField] float timeToMax;
+    [SerializeField] public float timeToMax;
     [SerializeField] float maxFuel;
     [HideInInspector]public float fuel;
-
     bool canFlying;
 
     private void Awake()
-    {
+    {   
         curRotateSpeed = 0;
         canFlying = true;
     }

@@ -46,8 +46,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62e9abebe296c92428d6c542e27cf039, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1000
+  maxSpeed: 2000
   rotateRange: 50
+  wing: {fileID: 8344141609358786974}
 --- !u!1 &942347703425926753
 GameObject:
   m_ObjectHideFlags: 0
@@ -1627,8 +1628,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62e9abebe296c92428d6c542e27cf039, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1000
+  maxSpeed: 2000
   rotateRange: 50
+  wing: {fileID: 8344141609358786974}
 --- !u!1 &7179833771900081087
 GameObject:
   m_ObjectHideFlags: 0
